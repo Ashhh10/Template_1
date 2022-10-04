@@ -55,6 +55,15 @@ body {
   font-size: 20px;
 }
 
+@media (max-width: 767px) {
+  .special-heading {
+    font-size: 60px;
+  }
+  .special-heading + p {
+    margin: -20px 0 0;
+  }
+}
+
 /* End Components */
 /* Start Header */
 
